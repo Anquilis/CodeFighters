@@ -1,0 +1,73 @@
+body {
+    background-color: lightgreen;
+}
+
+p {
+    font-size: 20px;
+}
+
+#game {
+    position: relative;
+    height: 200px;
+    background: url("http://www.slateman.net/images/gaming/backgrounds/sf2ww-vega-broken.gif") repeat-x center;
+    border: 5px double black;
+    display: none;
+    margin-left: -13px;
+}
+
+h1 , p{
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.character {
+    width: 100px;
+    height: 70px;
+}
+
+#characterc {
+    width: 50px;
+    height: 80px;
+}
+
+.characterSection {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#character1 {
+    width: 75px;
+    height: 80px;
+    position: absolute;
+    bottom: 18px;
+}
+
+#character2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+}
+
+#level {
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+
+#start {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+}
+
+#start:hover {
+    color:white;
+}
+
